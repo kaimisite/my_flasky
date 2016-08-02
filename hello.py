@@ -25,7 +25,6 @@ db = SQLAlchemy(app)
 
 
 class Role(db.Model):
-    '''角色'''
     __tablename__ = 'roles'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), unique=True)
