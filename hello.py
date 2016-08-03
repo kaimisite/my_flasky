@@ -12,7 +12,7 @@ from flask_mail import Mail, Message
 from threading import Thread
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-
+#7.5
 app = Flask(__name__)
 app.debug = True
 app.config['SECRET_KEY'] = 'hard to guess string'
